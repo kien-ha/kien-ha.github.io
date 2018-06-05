@@ -4,10 +4,8 @@ tagline: "OnePlus"
 ---
 {% include JB/setup %}
 
-Phone: OnePlus 3T
-
-Oxygen OS 5.0.3
-
+Phone: OnePlus 3T |
+Oxygen OS 5.0.3 |
 Android version 8.0.0
 
 Some apps are running in the background and will persistently notify you that
