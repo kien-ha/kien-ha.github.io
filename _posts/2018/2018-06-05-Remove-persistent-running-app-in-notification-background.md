@@ -16,6 +16,5 @@ This is a guide to help hide these persistent apps.
 2. Under 'Device' section, open 'Notifications'
 3. Find 'Android system' and open it (may need to enable 'show system apps'
 in the more options found in 'Notifications')
-4. Find and click on 'Apps running in background'
-5. Set priority from 'Medium' to 'Low'.
+4. Find and toggle 'Apps running in background' off
 
