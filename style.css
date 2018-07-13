@@ -12,3 +12,15 @@
 .active {
     background-color: grey;
 }
+
+img {
+    text-align: center;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.icon-container {
+    text-align: center;
+}
