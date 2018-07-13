@@ -24,3 +24,7 @@ img {
 .icon-container {
     text-align: center;
 }
+
+.icon-container a {
+    text-decoration: none;
+}
