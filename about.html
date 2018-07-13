@@ -1,26 +1,17 @@
----
-layout: page
-title: About Me
-header: Kien Ha
-group: navigation
----
-{% include JB/setup %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kien Ha</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Open Source project contributor.">
+        <meta name="author" content="Kien Ha">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<!--
-Deprecated
-<ul class="tag_box inline">
-  {% assign tags_list = site.tags %}  
-  {% include JB/tags_list %}
-</ul>
-
-
-{% for tag in site.tags %} 
-  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
-    {% assign pages_list = tag[1] %}  
-    {% include JB/pages_list %}
-  </ul>
-{% endfor %}
--->
-
-{% include about.html %}
+    <body>
+        <a class="element" href="index.html">Home</a>
+        <a class="element active" href="about.html">About</a>
+        <a class="element" href="blog.html">Blog</a>
+    </body>
+</html>

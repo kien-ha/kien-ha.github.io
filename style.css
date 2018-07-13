@@ -1,0 +1,14 @@
+.element {
+    text-decoration: none;
+    color: black;
+    background-color: lightgrey;
+    padding: 10px
+}
+
+.element:hover {
+    background-color: grey;
+}
+
+.active {
+    background-color: grey;
+}
