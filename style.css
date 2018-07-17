@@ -28,3 +28,11 @@ img {
 .icon-container a {
     text-decoration: none;
 }
+
+.navbar {
+    padding: 18px;
+}
+
+.content {
+    padding: 10px 18px;
+}
