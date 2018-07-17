@@ -29,6 +29,10 @@ img {
     text-decoration: none;
 }
 
+.icon-container img:hover {
+    opacity: 0.5;
+}
+
 .navbar {
     padding: 18px;
 }
