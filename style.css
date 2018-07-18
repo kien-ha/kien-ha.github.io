@@ -5,6 +5,15 @@ body, html {
     background-size: cover;
     height: 100%;
 }
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: lightgrey;
+}
+
 .element {
     text-decoration: none;
     color: black;
