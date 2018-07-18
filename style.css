@@ -53,6 +53,14 @@ img {
     padding: 18px;
 }
 
+.navbar a:link {
+    color: black
+}
+
+.navbar a:visited {
+    color: black
+}
+
 .content {
     padding: 10px 18px;
     color: white;
