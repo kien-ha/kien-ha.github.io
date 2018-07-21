@@ -57,20 +57,28 @@ img {
     opacity: 0.5;
 }
 
-.navbar {
+nav {
     padding: 18px;
 }
 
-.navbar a:link {
+nav a:link {
     color: black
 }
 
-.navbar a:visited {
+nav a:visited {
     color: black
 }
 
 .content {
     padding: 10px 18px;
+    color: white;
+}
+
+.content a:link {
+    color: white;
+}
+
+.content a:visited {
     color: white;
 }
 
