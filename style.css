@@ -25,17 +25,17 @@ a:visited {
 .element {
     text-decoration: none;
     color: black;
-    background-color: lightgrey;
+    background-color: black;
     padding: 10px;
     margin-right: -5px;
 }
 
 .element:hover {
-    background-color: grey;
+    background-color: #404040;
 }
 
 .active {
-    background-color: grey;
+    background-color: #404040;
 }
 
 img {
@@ -63,11 +63,11 @@ nav {
 }
 
 nav a:link {
-    color: black;
+    color: white;
 }
 
 nav a:visited {
-    color: black;
+    color: white;
 }
 
 .content {
