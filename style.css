@@ -60,6 +60,7 @@ img {
 
 nav {
     padding: 18px;
+    background-color: black;
 }
 
 nav a:link {
