@@ -1,3 +1,6 @@
+/* =============== LAYOUTS SECTION =============== */
+
+
 body, html {
     background-image: url(images/arch-linux-minimalistic-rainbow.jpg);
     background-position: center;
@@ -14,53 +17,9 @@ body {
     padding-bottom: 20px; /* Remove small white bar */
 }
 
-a:link {
-    color: white;
-}
-
-a:visited {
-    color: lightgrey;
-}
-
-.element {
-    text-decoration: none;
-    color: black;
-    background-color: black;
-    padding: 10px;
-    margin-right: -5px;
-}
-
-.element:hover {
-    background-color: #404040;
-}
-
-.active {
-    background-color: #404040;
-}
-
-img {
-    text-align: center;
-}
-
-.img-container {
-    text-align: center;
-}
-
-.icon-container {
-    text-align: center;
-}
-
-.icon-container a {
-    text-decoration: none;
-}
-
-.icon-container img:hover {
-    opacity: 0.5;
-}
-
 nav {
-    padding: 18px;
     background-color: black;
+    padding: 18px;
 }
 
 nav a:link {
@@ -83,9 +42,25 @@ nav a:focus {
     color: white;
 }
 
+.element {
+    background-color: black;
+    color: black;
+    margin-right: -5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.element:hover {
+    background-color: #404040;
+}
+
+.active {
+    background-color: #404040;
+}
+
 .content {
-    padding: 10px 18px;
     color: white;
+    padding: 10px 18px;
 }
 
 .content a:link {
@@ -94,6 +69,38 @@ nav a:focus {
 
 .content a:visited {
     color: white;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.icon-container a {
+    text-decoration: none;
+}
+
+.icon-container img:hover {
+    opacity: 0.5;
+}
+
+
+/* =============== GENERIC =============== */
+
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: lightgrey;
+}
+
+img {
+    text-align: center;
+}
+
+.img-container {
+    text-align: center;
 }
 
 table, th, td {
