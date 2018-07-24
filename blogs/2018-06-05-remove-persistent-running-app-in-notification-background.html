@@ -10,7 +10,12 @@
     </head>
 
     <body>
-        <nav>
+        <nav id=top-nav class="main-nav">
+            <div class="hamburger-container" onclick="toggleHamburger(this)">
+                <div class="top-bar"></div>
+                <div class="middle-bar"></div>
+                <div class="bottom-bar"></div>
+            </div>
             <a class="element" href="../index.html">Home</a>
             <a class="element" href="../about.html">About</a>
             <a class="element active" href="../blog.html">Blog</a>
@@ -37,5 +42,6 @@
                 <li>Find and toggle 'Apps running in background' off</li>
             </ol>
         </div>
+        <script src="hamburger.js"></script>
     </body>
 </html>
