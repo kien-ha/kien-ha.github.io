@@ -2,10 +2,10 @@
 
 function toggleHamburger(x) {
     x.classList.toggle("change");
-    myFunction();
+    toggleNavResponsive();
 }
 
-function myFunction() {
+function toggleNavResponsive() {
     let x = document.getElementById("top-nav");
     if (x.className === "main-nav") {
         x.className += " responsive";
