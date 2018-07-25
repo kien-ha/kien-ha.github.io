@@ -95,6 +95,7 @@ nav a:focus {
 
 .element:hover {
     background-color: #404040;
+    transition: all 0.3s;
 }
 
 .active {
