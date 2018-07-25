@@ -19,7 +19,11 @@ body {
 
 nav {
     background-color: black;
-    padding: 18px;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
 }
 
 nav a:link {
