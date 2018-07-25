@@ -126,6 +126,7 @@ nav a:focus {
 
 .icon-container img:hover {
     opacity: 0.5;
+    transition: 0.3s;
 }
 
 
