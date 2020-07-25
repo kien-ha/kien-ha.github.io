@@ -105,6 +105,9 @@ nav a:focus {
 .active {
     background-color: #404040;
 }
+.about-content {
+    text-align: center;
+}
 
 .content {
     color: white;
